@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <title>Jocko Willlink and John Carmack</title>
+</head>
+<body>
+  <section id="main">
+    <header>
+      <h1 id="title">Jocko Willink and John Carmack</h1>
+    </header>
+    <figure id="img-div">
+      <img id="image" src="media/WillinkAndCarmack.png" alt="Jocko Willink (left) and John Carmack (right)"/>
+      <figcaption id="img-caption">Jocko Willink (left) and John Carmack (right)</figcaption>
+    </figure>
+    <article id="tribute-info">
+      <p>For this FreeCodeCamp 'Build a Tribute Page' project, there were two clear inspirations of mine, either of whom I could have chosen to feature, and I simply couldn't decide between them. Therefore I decided to focus on both of them. This page is dedicated to two people who have had had a big influence on my life over the past few years, and they both happen to be called John.</p>
+      <p>On the surface, they appear to be quite different from one another. One, a large imposing military type, the other more slight, quiet and traditionally studious. However, there are actually a great many similarities between the two. Both are incredibly focused on their goals, are famously disciplined, and have done whatever it has taken to achieve success. Both are also incredibly accomplished in their relative fields. In childhood, both knew that they were smart, destined for success, and didn't handle authority or disciplinarian figures very well, a common trait amongst many successful people. They didn't just accept what they were told as the majority do, they pushed back, and did what they wanted to do rather than what they were told to do.</p>
+      
+      <h2>Jocko Willink <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jocko_Willink" target="_blank">Wikipedia</a></h2>
+      
+      <p>John 'Jocko' Willink spent twenty years in the US Navy SEAL teams, reaching the rank of Lieutenant Commander. During his career, he completed multiple deployments to Asia, the Middle East and Europe. After retiring from military life Willink was asked by a friend and CEO of multiple companies to visit their offices and talk about the principles of military leadership. Those talks went so well that he was soon invited to give more and more talks on the subject to many different types of companies around the world. It appeared that the principles of military leadership were very directly applicable to the world of business leadership. Realising that there was a huge demand for his knowledge and experience, Willink soon enlisted the help of former Navy Seal colleague Leif Babin, and the two formed a company, Echelon Front, to formalise their business leadership training.</p>
+      
+      <p>Outside of work Willink focusses heavily on his passion for Brazilian Jiu-Jitsu, a sport for which he holds a black belt, and which he often teaches, in addition to several other martial arts. Due to his successes in business leadership training and martial arts, he was soon invited to appear as a guest on the podcasts of Tim Ferriss, Joe Rogan and Sam Harris, all three being very popular podcasts reaching large audiences. Due to the popularity of those appearances, Willink soon went on to start his own weekly podcast, The Jocko Podcast in December 2015.</p>
+      
+      <p>In the intervening years, Willink has gone on to write several books on the subjects of leadership and personal discipline, both alone and co-authored with Leif Babin. Two of Willink's core values are 'Discipline Equals Freedom', and 'Extreme Ownership'. 'Discipline Equals Freedom' essentially means that in opposition to commonly held beliefs, instilling a great deal of discipline into your life actually grants you with more freedom, rather than restricting your freedom. For instance, with the discipline to get up early in the morning, you'll have more time than everybody else to get things done. With the discipline to eat healthier and work out regularly you'll have a sharper mind and a more effective body, freeing you up to do those things you want to do without being limited by poor health and fitness. 'Extreme Ownership' suggests that we should all 'own' our problems, rather than blaming them on external factors. If something bad happens to you, don't give up and blame it on bad luck, on somebody else or on another external factor. Instead, choose to 'own' that problem and face it head-on. By owning the problem you give yourself the ability to take charge of the situation rather than allowing it to take charge of you.</p>
+
+      <p class="quote">"Most of us aren't defeated in one decisive battle. We are defeated one tiny, seemingly insignificant surrender at a time that chips away at who we should really be." - Jocko Willink</p>
+
+      <h2>John Carmack <a id="tribute-link-2" href="https://en.wikipedia.org/wiki/John_Carmack" target="_blank">Wikipedia</a></h2>
+      
+      <p>John Carmack always loved computers, and became a programmer at a young age. He quickly surpassed his peers in ability, displaying an exceptional talent for both programming and problem-solving. He had a passion for developing his own computer games, and after finishing school he managed to make a living as a freelance game developer, working from home and selling his creations to a local publisher called Softdisk. Softdisk was very impressed with his games, and after much persuasion (Carmack appreciated his solitary lifestyle) they convinced him to come to the office and work full-time for them in their brand new in-house game development department.</p>
+
+      <p>At Softdisk John met a group of like-minded game developers, and the team quickly gelled. The process of working together to deliver new games each month quickly honed their skills, and they quickly became a formidable development team. As each member of the team found their natural place, Carmack became the team's engine programmer. His interests in the games themselves came second to his interest in the technology that powered those games. He would build each game's underlying 'engine', and another member of the team, John Romero, would often take that technical engine and turn it into a fully fledged game.</p>
+
+      <p>During this time in the late 1980s, home computers were very underpowered compared with home video game consoles, which came with their own dedicated graphics hardware. A huge limitation was that home computers simply couldn't produce the kind of smooth scrolling effect that had already been made famous by console games such as Super Mario Brothers. Others had attempted to approximate the effect, by either having the screen scroll very slowly or by simply redrawing a new screen whenever the player moved off the edge of the current screen. Carmack decided to go one better, to try and actually build a smooth scrolling game engine for home computers, and using his trademark combination of technical know-how and thinking outside the box, he managed it. The problem he found was that computers simply didn't have enough power to be able to move and redraw each of the screen's pixels in its new location quickly enough to produce a convincing scrolling effect. The solution he found: don't redraw every pixel. When looking at a game like Super Mario Brothers, it is clear that the top two-thirds of the screen is often occupied by nothing but a simple blue sky, and that blue sky is only sometimes broken by white cloud. Carmack's genius was in realising that he could gain sufficient control of the computer's draw head, to be able to force the computer to only redraw the pixels that he wanted it to, rather than redrawing the entire screen as it would as standard. Carmack could then run a check on every cycle of the game, which would determine whether moving a given pixel would have any effect, and if it wouldn't (if a blue pixel would still be a blue pixel when moved) then he simply wouldn't move it. The effect was stunning for the time, and with this technology, the team would soon go on to launch their own game development company, id Software.</p>
+
+      <p>Over the years id Software pioneered a great many other technical leaps thanks to Carmack's breakthroughs, and their games, which included Wolfenstein 3D, Doom and Quake became some of the biggest hits of the 1990s. The list of technological breakthroughs in gaming that Carmack introduced includes pseudo-3D fast action gameplay, true 3D fast action gameplay, coloured lighting, curved edges in a fast action 3D environment, and networked online multiplayer gameplay.</p>
+
+      <p>Outside of games development, Carmack has a huge interest in rocketry, beginning in amateur rocketry clubs. With the success that his games brought him Carmack has since gone on to found a company called Armadillo Aerospace, and with the aim of achieving suborbital space flight and orbital vehicles, the company has so far completed levels 1 and 2 of NASA's Lunar Lander Challenge.</p>
+
+      <p>In 2013 Carmack joined Oculus to begin working on 3D virtual reality systems, a logical next step for somebody who has devoted much of his life to the pursuit of the ability to generate realistic, immersive digital environments.</p>
+
+      <p class="quote">"If you want to set off and go and develop some grand new thing, you don't need millions of dollars in capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on and the dedication to go through with it." - John Carmack</p>
+
+      <h2>Conclusion</h2>
+
+      <p>It is the combination of both of these men that I aspire to be. As a software developer, I admire John Carmack's dazzling technical abilities, and that acts as a constant drive which pushes me forward to improve my own abilities. As somebody who always wants to improve myself, and also in my current capacity as a software development team leader, I admire Jocko Willink's leadership abilities, and his ability to extract the very best results from himself as well as from others. From both men, I admire their sheer discipline, willpower and determination to get things done.</p>
+    </article>
+  </section>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
